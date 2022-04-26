@@ -30,3 +30,4 @@ class ContatoController extends Controller
         return "Esse é o editar do contatocontroller";
     }
 }
+//estudo
