@@ -24,7 +24,7 @@
 </div>
 @if (isset($registro->imagem))
     <div class="input-field">
-        <img src="{{asset($registro->imagem)}}" alt="">
+        <img width="150px" src="{{asset($registro->imagem)}}" alt="">
     </div>
 @endif
 

@@ -16,7 +16,7 @@ class ContatoController extends Controller
 
         $contato = new Contato();
         $con = $contato->lista();
-        dd($con->nome);
+        /* dd($con->nome); */
 
         return view('contato.index',compact('contatos'));
     }
