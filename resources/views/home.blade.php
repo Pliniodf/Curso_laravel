@@ -8,8 +8,8 @@
         <div class="row">
             @foreach ($cursos as $curso)
                 <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
+                <div class="card" style="height: 560px">
+                    <div class="card-image" style="object-fit: contain">
                     <img src="{{asset($curso->imagem)}}">
                     </div>
                     <div class="card-content">
@@ -24,5 +24,6 @@
             @endforeach
         </div>
     </div>
-
 @endsection
+
+
